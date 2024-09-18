@@ -1,0 +1,91 @@
+/* Define o estilo do corpo da página */
+body {
+    background-color: #000000; /* Define a cor de fundo como preto */
+    background-size: cover; /* Faz com que a imagem de fundo cubra todo o corpo (não é usada aqui, mas é uma configuração padrão) */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita (também não é usada aqui) */
+    color: rgb(26, 24, 24); /* Define a cor padrão do texto */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto */
+}
+
+/* Define o estilo da lista não ordenada */
+ul {
+    display: flex; /* Usa o layout flexível para os itens da lista */
+    justify-content: space-between; /* Espaça os itens igualmente ao longo do contêiner */
+    list-style-type: none; /* Remove os marcadores da lista */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 16px; /* Adiciona espaço interno ao redor da lista */
+}
+
+/* Define o estilo dos links */
+a {
+    color: rgb(255, 255, 255); /* Define a cor do texto dos links como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Define o estilo da imagem no cabeçalho */
+header img {
+    width: 150px; /* Define a largura da imagem */
+    height: 150px; /* Define a altura da imagem */
+    border-radius: 50%; /* Faz a imagem ter formato circular */
+    border: 5px solid rgb(255, 255, 255); /* Adiciona uma borda branca ao redor da imagem */
+}
+
+/* Define o estilo para elementos com a classe center */
+.center {
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Define o estilo dos contêineres principais */
+.container {
+    width: 80%; /* Define a largura do contêiner */
+    margin: 50px auto; /* Centraliza o contêiner horizontalmente e adiciona margem superior e inferior */
+    background-color: #fff; /* Define a cor de fundo do contêiner como branco */
+    padding: 20px; /* Adiciona espaço interno ao redor do contêiner */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao contêiner */
+}
+
+/* Define o estilo dos títulos h1 */
+h1 {
+    text-align: center; /* Alinha o texto ao centro */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+    color: rgb(247, 247, 247); /* Define a cor do texto do título como um cinza muito claro */
+}
+
+/* Define o estilo dos títulos h2 */
+h2 {
+    text-align: center; /* Alinha o texto ao centro */
+    color: rgb(247, 247, 247); /* Define a cor do texto do título como um cinza muito claro */
+}
+
+/* Define o estilo dos títulos h3 */
+h3 {
+    color: #000000; /* Define a cor do texto do título como preto */
+}
+
+/* Define o estilo das informações de contato agrupadas */
+.contact-info {
+    display: flex; /* Usa o layout flexível para os itens de contato */
+    justify-content: space-between; /* Espaça os itens igualmente ao longo do contêiner */
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte se necessário */
+}
+
+/* Define o estilo dos blocos de contato */
+.contact {
+    width: calc(33.333% - 20px); /* Define a largura dos blocos de contato (um terço do contêiner, menos margem) */
+    background-color: #f9f9f9; /* Define a cor de fundo dos blocos de contato como um cinza muito claro */
+    padding: 15px; /* Adiciona espaço interno ao redor dos blocos de contato */
+    border-radius: 8px; /* Adiciona bordas arredondadas aos blocos de contato */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve aos blocos de contato */
+    margin-bottom: 20px; /* Adiciona espaço abaixo dos blocos de contato */
+}
+
+/* Define o estilo dos títulos dentro dos blocos de contato */
+.contact h2 {
+    margin-top: 0; /* Remove o espaço acima dos títulos dentro dos blocos de contato */
+}
+
+/* Define o estilo dos parágrafos dentro dos blocos de contato */
+.contact p {
+    margin-bottom: 5px; /* Adiciona espaço abaixo dos parágrafos dentro dos blocos de contato */
+}

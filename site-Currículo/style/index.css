@@ -1,0 +1,89 @@
+/* Define o estilo do corpo da página */
+body {
+    /* Define a imagem de fundo, a cor de fundo e as configurações de repetição e tamanho */
+    background-image: #d4d4d4; /* Pode ser substituído por uma URL de imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    color: rgb(26, 24, 24); /* Define a cor do texto */
+    background-color: rgb(255, 255, 255); /* Define a cor de fundo (use apenas esta ou a imagem) */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto */
+}
+
+/* Define o estilo da lista não ordenada */
+ul {
+    display: flex; /* Usa o layout flexível para os itens da lista */
+    justify-content: space-between; /* Espaça os itens igualmente ao longo do contêiner */
+    list-style-type: none; /* Remove os marcadores da lista */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 16px; /* Adiciona espaço interno ao redor da lista */
+}
+
+/* Define o estilo dos links */
+a {
+    color: rgb(0, 0, 0); /* Define a cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Define o estilo da imagem no cabeçalho */
+header img {
+    width: 150px; /* Define a largura da imagem */
+    height: 150px; /* Define a altura da imagem */
+    border-radius: 50%; /* Faz a imagem ter formato circular */
+    border: 5px solid rgb(0, 0, 0); /* Adiciona uma borda preta ao redor da imagem */
+}
+
+/* Define o estilo para o texto centralizado */
+.center {
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Define o estilo dos títulos h1 */
+h1 {
+    color: rgb(0, 0, 0); /* Define a cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Define o estilo dos títulos h2 */
+h2 {
+    color: rgb(0, 0, 0); /* Define a cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Define o estilo dos títulos h3 */
+h3 {
+    color: #000000; /* Define a cor do texto */
+    border-bottom: 1px solid #000000; /* Adiciona uma linha preta na parte inferior do texto */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Define o estilo dos parágrafos */
+p {
+    color: #000000; /* Define a cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Define o estilo dos elementos div */
+div {
+    color: #000000; /* Define a cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Define o estilo da imagem no rodapé */
+footer img {
+    width: 100px; /* Define a largura da imagem */
+    height: 100px; /* Define a altura da imagem */
+    border-radius: 50%; /* Faz a imagem ter formato circular */
+    border: 5px solid rgb(0, 0, 0); /* Adiciona uma borda preta ao redor da imagem */
+}
+
+/* Define o estilo do rodapé */
+footer {
+    display: flex; /* Usa o layout flexível para os itens no rodapé */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Define o estilo dos links no rodapé */
+footer a {
+    margin: 2px; /* Adiciona espaço ao redor dos links */
+    text-align: center; /* Alinha o texto dos links ao centro */
+}
